@@ -8,11 +8,12 @@
     "start": "electron ."
   },
   "dependencies": {
-    "axios": "~0.18.0",
-    "babel-cli": "6.26.0",
-    "babel-preset-env": "1.7.0",
-    "electron": "^22.0.0"
-
+    "@babel/cli": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "axios": "^1.2.1",
+    "babel-cli": "^6.26.0",
+    "electron": "^22.0.0",
+    "socket.io-client": "^4.5.4"
   },
   "author": "godnjs13579@naver.com",
   "license": "MIT"
