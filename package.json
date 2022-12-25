@@ -11,8 +11,8 @@
     "axios": "~0.18.0",
     "babel-cli": "6.26.0",
     "babel-preset-env": "1.7.0",
-    "electron": "^22.0.0",
-    "socket.io-client": "~2.1.1"
+    "electron": "^22.0.0"
+
   },
   "author": "godnjs13579@naver.com",
   "license": "MIT"

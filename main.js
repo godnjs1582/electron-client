@@ -24,7 +24,8 @@ app.on("ready",()=>{
     win.loadURL(url.format({
         pathname:path.join(__dirname, "login.html"),
         protocol:"file"
-    }))
+    }));
+    win.webContents.openDevTools();
 });
 app.on("window-all-closed",()=>{
     app.quit();
